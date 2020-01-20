@@ -1,0 +1,16 @@
+.Projects {
+    height:100vh;
+    /* background: linear-gradient(225deg, rgba(255,255,255,1) 0%, rgba(255,106,75,0.5) 100%); */
+    background-color: rgba(255,255,255,1);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.projectsTitle {
+    color:#FF6A4B;
+    margin:0 0 5rem 0;
+    font-size:50px;
+    padding:2% 0 2% 5%;
+    border-bottom:1px solid #FF6A4B;
+    letter-spacing: 3px;
+}

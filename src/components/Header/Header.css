@@ -1,0 +1,61 @@
+.Header {
+    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,106,75,0.5) 100%);
+    font-family: 'Roboto', sans-serif;
+    height:100vh;
+    text-align: center;
+    position: relative;
+}
+
+.name {
+    padding: 0 0 0 0;
+    margin:0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #FF6A4B;
+    font-weight: 400;
+    font-size: 70px;
+    height:50%;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 100;
+    color: #FF6A4B;
+}
+
+.nameTitle {
+    width:50%;
+    position: absolute;
+    top: 50%;
+    left:25%;
+    transform: translateY(-50%);
+}
+
+.aboutBtn {
+    margin:2%;
+    background-color: #FF6A4B;
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+    padding:1rem 2rem 1rem 2rem;
+    border-radius:30px;
+    border: none;
+    /* border: 1px solid rgb(110, 110, 110); */
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(44, 44, 44, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(44, 44, 44, 0.75);
+    box-shadow: 3px 3px 5px 0px rgba(100, 100, 100, 0.75);
+    transition-property: background-color,box-shadow;
+    transition: 0.3s ease-in-out,.3s;
+}
+
+.aboutBtn:focus {
+    outline: none;
+}
+
+.aboutBtn:hover {
+    background-color: rgb(255, 85, 51);
+    cursor: pointer;
+    -webkit-box-shadow: 22px 22px 5px 0px rgba(44, 44, 44, 0.75);
+-moz-box-shadow: 22px 22px 5px 0px rgba(44, 44, 44, 0.75);
+box-shadow: 6px 6px 5px 0px rgba(95, 95, 95, 0.75);
+}
+
