@@ -20,7 +20,8 @@ function About() {
 
 
             <div>
-                <p className="aboutBio" >I am not your typical coding school student. I am a third-generation coder that has been surrounded by tech and computers all my life. I grew up in a very entrepreneurial family and have had a passion for creating software since I was young. I have dedicated the past 2 years to hone my craft and gather the experience needed to thrive in any tech-based work environment. I am young, talented, and would be a great investment for any collaborative work environment.
+                <p className="aboutBio" >
+I am a software developer currently living in Minneapolis, MN. Over the past few years I have really developed a passion for programming and bringing cool and unique ideas to life. I have developed several interesting projects over the past year. Some I have built by myself and others with with a small team by my side. More recently I have been developing internal management software as well as an e-commerce front-end for freight bidding at Knight-Swift Transportation. My education and work experience have led me into all different shapes and sizes of work environments all of which I thrived in. I am a natural problem solver and always looking for new challenges and adventures to take on.
                 </p>
                 <div className="contactInfoDiv" >
                     Contact Info
