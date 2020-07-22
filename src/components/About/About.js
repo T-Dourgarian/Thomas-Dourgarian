@@ -21,7 +21,7 @@ function About() {
 
             <div>
                 <p className="aboutBio" >
-I am a software developer currently living in Minneapolis, MN. Over the past few years I have really developed a passion for programming and bringing cool and unique ideas to life. I have developed several interesting projects over the past year. Some I have built by myself and others with with a small team by my side. More recently I have been developing internal management software as well as an e-commerce front-end for freight bidding at Knight-Swift Transportation. My education and work experience have led me into all different shapes and sizes of work environments all of which I thrived in. I am a natural problem solver and always looking for new challenges and adventures to take on.
+I am a software developer currently living in Minneapolis, MN. Over the past few years I have really developed a passion for programming and bringing cool and unique ideas to life. I have developed several interesting projects over the past year. Some I have built by myself and others with with a small team by my side. More recently I have been developing internal management software as well as a full-stack e-commerce application for freight bidding at Knight-Swift Transportation. My education and work experience have led me into all different shapes and sizes of work environments all of which I thrived in. I am a natural problem solver and always looking for new challenges and adventures to take on.
                 </p>
                 <div className="contactInfoDiv" >
                     Contact Info
