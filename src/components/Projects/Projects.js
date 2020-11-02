@@ -12,17 +12,17 @@ class Projects extends Component {
             <div id='projects' className='Projects'>
                 <h1 className="projectsTitle" >PROJECTS</h1>
                 <div style={{ display: 'flex' }}>
-					
+
 					<ProjectCard
 						technologies={['JAVASCRIPT', 'VUE', 'NODE', 'MONGODB', 'BINANCE API']}
 						description={`A BITCOIN TRADING BOT WITH A CUSTOM ANALYSIS INTERFACE THAT UTILIZES BINANCE'S PUBLIC TRADING API. IT UTILIZES COMMON TRADING INDICATOR VALUES, CALCULATED USING BITCOIN PRICE HISTORY, TO DETERMINE OPTIMAL BUY AND SELL PRICES`}
 						link={`https://td-binance.herokuapp.com/#/login`}
-						title='BITCOIN TRADING BOT'
+						title='BITCOIN BOT'
 					/>
 
                     <ProjectCard
                         technologies={['JAVASCRIPT', 'REACT', 'NODE', 'POSTGRESQL', 'AUTO ML']}
-                        description={`SIID (SOCIAL IMPACT IDENTIFICATION) IS A FULL-STACK WEB APPLICATION THAT LEVERAGES A RULES-BASED FLAGGING SYSTEM AND MACHINE LEARNING TO DETECT AND PREVENT NEGATIVE SOCIAL IMPACT IN MARKETING CAMPAIGNS WHILE ALSO CONNECTING MARKETERS TO EXPERTS IN IDENTIFIED AREAS OF SENSITIVITY.`}
+                        description={`SIID (SOCIAL IMPACT IDENTIFICATION) IS A FULL-STACK WEB APPLICATION THAT LEVERAGES A RULES-BASED FLAGGING SYSTEM AND MACHINE LEARNING TO DETECT AND PREVENT NEGATIVE SOCIAL IMPACT IN MARKETING CAMPAIGNS WHILE ALSO CONNECTING MARKETERS TO EXPERTS IN IDENTIFIED AREAS OF SENSITIVITY. \n username: thomas \n password: thomas123`}
                         link={`http://siid-tool.herokuapp.com/#/home`}
                         title='SIID'
                     />
