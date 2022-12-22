@@ -1,16 +1,19 @@
-.Projects {
-    height:100vh;
-    /* background: linear-gradient(225deg, rgba(255,255,255,1) 0%, rgba(255,106,75,0.5) 100%); */
-    background-color: rgba(255,255,255,1);
-    font-family: 'Roboto', sans-serif;
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding: 0 0 0 20px;
+    overflow-y: scroll;
 }
 
+.project {
+    display: flex;
+    flex-direction: column;
+    /* height: 30vh; */
+}
 
-.projectsTitle {
-    color:#FF6A4B;
-    margin:0 0 5rem 0;
-    font-size:50px;
-    padding:2% 0 2% 5%;
-    border-bottom:1px solid #FF6A4B;
-    letter-spacing: 3px;
+.projectTitle {
+    font-family:  Helvetica, sans-serif;
+    color:  #264696a4;
+    font-size: 30px;
 }

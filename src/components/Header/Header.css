@@ -1,56 +1,88 @@
 .Header {
-    background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(255,106,75,0.5) 100%);
-    font-family: 'Roboto', sans-serif;
+    background:#f1f1f1 ;
+    font-family: 'Arial', sans-serif;
     height:100vh;
-    text-align: center;
-    position: relative;
+    /* text-align: center; */
+    flex-direction: row;
+    display: flex;
 }
 
 .name {
-    padding: 0 0 0 0;
-    margin:0;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: #FF6A4B;
+    padding: 20px 0 20px 0;
+    margin: 5% 0 0 0;
+    font-family: 'Arial', sans-serif;
+    color: #264696a4;
     font-weight: 400;
-    font-size: 70px;
-    height:50%;
+    font-size: 20px;
 }
 
 .title {
     font-size: 25px;
     font-weight: 100;
-    color: #FF6A4B;
+    color: #CBD6F5;
 }
 
 .nameTitle {
-    width:50%;
-    position: absolute;
-    top: 50%;
-    left:25%;
-    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    display:flex;
+    flex-direction: column;
+    border-right: 1px solid #264696a4;
 }
 
-.aboutBtn {
-    margin:1rem 1rem 1rem 1rem;
-    background-color: #FF6A4B;
-    color:white;
-    font-size: 20px;
-    font-weight: 400;
-    padding:1rem 2rem 1rem 2rem;
-    border-radius:30px;
-    border: none;
-    box-shadow: 0px 3px 5px 0px rgba(122, 122, 122, 0.75);
-    transition-property: top, background-color,box-shadow,margin;
-    transition: 0.3s ease-in-out,.3s;
+.ContactLi {
+    padding: 5px 0 5px 0;
+    font-size: 12px;
+}   
+
+.aboutTitle {
+    margin:0;
+    font-size:50px;
+    padding:2% 0 2% 5%;
+    border-bottom:1px solid #264696a4;
+    letter-spacing: 3px;
 }
 
-.aboutBtn:focus {
-    outline: none;
+.headshot {
+    width: 12vw;
+    height:12vw;
+    object-fit: cover;
+    /* padding: 15px; */
+    margin-top: 20px;
+    border-radius: 25%;
+    border:1px solid #264696a4;
 }
 
-.aboutBtn:hover {
-    background-color: rgb(255, 85, 51);
-    cursor: pointer;
-    box-shadow: 0px 6px 15px 2px rgba(112, 112, 112, 0.75);
+.bioBottom {
+    width:10rem;
+    border: 1px solid #264696a4;
+    margin: 10% 0 10% 0;
 }
 
+.contactInfoDiv {
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    /* align-self: baseline; */
+    margin-top: auto;
+} 
+
+* {
+    list-style: none;
+}
+
+.contactIcon {
+    color:#264696a4;
+    padding:1%;
+}
+
+
+.link {
+    text-decoration:none; 
+    color:inherit;
+    border-bottom: 1px solid  #264696a4;
+}
+
+.link:hover {
+    color:#264696a4;
+}

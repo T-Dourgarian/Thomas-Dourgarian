@@ -46,7 +46,7 @@
     display: inline-block;  
     padding:.5rem .2rem .5rem .2rem;
     width:15rem;
-    border-bottom: 1px solid #FF6A4B;
+    border-bottom: 1px solid #264696a4;
 }
 
 .cardBackDescription {
@@ -61,7 +61,7 @@
 .liveSiteBtn {
     text-decoration:none; 
     background-color: rgb(238, 238, 238);
-    color:#FF6A4B;
+    color:#264696a4;
     font-size: 20px;
     font-weight: 100;
     padding:1rem 2rem 1rem 2rem;
@@ -74,7 +74,7 @@
 }
 
 .siteLink {
-    color:#FF6A4B;
+    color:#264696a4;
     text-decoration: none;
 }
 

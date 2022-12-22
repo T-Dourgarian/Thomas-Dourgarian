@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './Header.css';
 import { scroller } from 'react-scroll'
+import Projects from '../Projects/Projects';
 
-import Typist from 'react-typist';
+// import Typist from 'react-typist';
 
 
 
@@ -26,42 +27,33 @@ class Header extends Component {
 
                 <div className='nameTitle'>
 
+                    <div>
+                     <img src={require('./Images/Thomas.jpg')}  alt="Headshot" className='headshot'/>
+                    </div>
+
+
                     <h1 className="name" >Thomas Dourgarian</h1>
-                    <Typist cursor={{
-                        show: false,
-                        blink: false,
-                        element: '|',
-                        hideWhenDone: false,
-                        hideWhenDoneDelay: 1000,
-                    }}>
-                        <h3 className="title">software developer
-                        <Typist.Delay ms={500} />
 
-                            <Typist.Backspace count={9} delay={200} />
-                            engineer
+                    
 
-                            <Typist.Delay ms={500} />
+                        <div className="contactInfoDiv" >
+                            Contact Info
+                            <ul style={{padding: 0}}>
+                                <li class="ContactLi">ThomasDourgarian@gmail.com</li>
+                                <li class="ContactLi">(651) 262-9188</li>
+                                <li class="ContactLi"><i className="fab fa-github contactIcon fa-lg"></i><a className="link" href="https://github.com/T-Dourgarian" >Git Hub</a></li>
+                                <li class="ContactLi"><i class="fab fa-linkedin contactIcon fa-lg"></i><a className="link"href="https://www.linkedin.com/in/thomas-dourgarian-929300196/">LinkedIn</a></li>
+            
+                            </ul>
+                        </div>
+                    
 
-                            <Typist.Backspace count={8} delay={200} />
-                            enthusiast
-                        </h3>
-                    </Typist>
-
-
-                    <button
-                        className='aboutBtn'
-                        onClick={() => this.scrollTo('about')}
-                    >
-                        ABOUT ME
-                    </button>
-                    <button
-                        className='aboutBtn'
-                        onClick={() => this.scrollTo('projects')}
-                    >
-                        PROJECTS
-                    </button>
-
+                    
                 </div>
+
+                <Projects />
+
+
             </div>
         )
     }
