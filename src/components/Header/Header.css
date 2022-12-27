@@ -1,6 +1,6 @@
 .Header {
     background:#f1f1f1 ;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     height:100vh;
     /* text-align: center; */
     flex-direction: row;
@@ -10,8 +10,8 @@
 .name {
     padding: 20px 0 20px 0;
     margin: 5% 0 0 0;
-    font-family: 'Arial', sans-serif;
-    color: #264696a4;
+    font-family: 'Noto Sans', sans-serif;
+    color: #122c6ed3;
     font-weight: 400;
     font-size: 20px;
 }
@@ -23,11 +23,12 @@
 }
 
 .nameTitle {
+    width:11%;
     text-align: center;
-    padding: 15px;
+    padding: 40px 20px 20px 15px;
     display:flex;
     flex-direction: column;
-    border-right: 1px solid #264696a4;
+    border-right: 1px solid #122c6ed3;
 }
 
 .ContactLi {
@@ -39,28 +40,29 @@
     margin:0;
     font-size:50px;
     padding:2% 0 2% 5%;
-    border-bottom:1px solid #264696a4;
+    border-bottom:1px solid #122c6ed3;
     letter-spacing: 3px;
 }
 
 .headshot {
-    width: 12vw;
-    height:12vw;
+    width: 90%;
+    height:100%;
     object-fit: cover;
     /* padding: 15px; */
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    /* margin: 20px 15px 15px 0; */
     border-radius: 25%;
-    border:1px solid #264696a4;
+    border:1px solid #122c6ed3;
 }
 
 .bioBottom {
     width:10rem;
-    border: 1px solid #264696a4;
+    border: 1px solid #122c6ed3;
     margin: 10% 0 10% 0;
 }
 
 .contactInfoDiv {
-    font-weight: 100;
+    font-weight: 500;
     font-size: 18px;
     text-align: center;
     /* align-self: baseline; */
@@ -72,7 +74,7 @@
 }
 
 .contactIcon {
-    color:#264696a4;
+    color:#122c6ed3;
     padding:1%;
 }
 
@@ -80,9 +82,9 @@
 .link {
     text-decoration:none; 
     color:inherit;
-    border-bottom: 1px solid  #264696a4;
+    border-bottom: 1px solid  #122c6ed3;
 }
 
 .link:hover {
-    color:#264696a4;
+    color:#122c6ed3;
 }

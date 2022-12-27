@@ -27,7 +27,7 @@ class Header extends Component {
 
                 <div className='nameTitle'>
 
-                    <div>
+                    <div style={{ height: "18%" }}>
                      <img src={require('./Images/Thomas.jpg')}  alt="Headshot" className='headshot'/>
                     </div>
 
@@ -39,10 +39,10 @@ class Header extends Component {
                         <div className="contactInfoDiv" >
                             Contact Info
                             <ul style={{padding: 0}}>
-                                <li class="ContactLi">ThomasDourgarian@gmail.com</li>
-                                <li class="ContactLi">(651) 262-9188</li>
-                                <li class="ContactLi"><i className="fab fa-github contactIcon fa-lg"></i><a className="link" href="https://github.com/T-Dourgarian" >Git Hub</a></li>
-                                <li class="ContactLi"><i class="fab fa-linkedin contactIcon fa-lg"></i><a className="link"href="https://www.linkedin.com/in/thomas-dourgarian-929300196/">LinkedIn</a></li>
+                                <li className="ContactLi">ThomasDourgarian@gmail.com</li>
+                                <li className="ContactLi">(651) 262-9188</li>
+                                <li className="ContactLi"><i className="fab fa-github contactIcon fa-lg"></i><a className="link" href="https://github.com/T-Dourgarian" >Git Hub</a></li>
+                                <li className="ContactLi"><i className="fab fa-linkedin contactIcon fa-lg"></i><a className="link"href="https://www.linkedin.com/in/thomas-dourgarian-929300196/">LinkedIn</a></li>
             
                             </ul>
                         </div>

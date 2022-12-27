@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width:100%;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 30px;
     overflow-y: scroll;
 }
 
@@ -14,6 +14,30 @@
 
 .projectTitle {
     font-family:  Helvetica, sans-serif;
-    color:  #264696a4;
-    font-size: 30px;
+    color:  #122c6ed3;
+    font-size: 35px;
+    padding: 10px 0 10px 0;
+}
+
+.projectDetailsContainer{
+    padding: 10px 0px 0 15px
+}
+
+.descriptionLabel {
+    font-size: 25px;
+    color: #122c6ed3;
+
+}
+
+.description {
+    margin-top: 20px;
+    color: #0c1b41;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+}
+
+.technologiesList {
+    color: #0c1b41;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
 }
