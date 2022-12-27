@@ -18,7 +18,7 @@ class Projects extends Component {
                 './Images/meetupimage4.jpg',
                 './Images/meetupimage5.jpg',
                 './Images/meetupimage6.jpg'],
-            description: ' LinkUp is a mobile app that promotes spontaneous social activity. Users can search nearby events based on distance away or type of activity and see how many people are going the event before sending a message to the event creator. Live messaging allows you the opportunity to get the know the event creator before committing to attending the event. Users can create their own events for others in their area to see. They can manage multiple conversations for their own events or other events all at once.',
+            description: ' LinkUp is a mobile app that promotes spontaneous social activity. Users can search events and activities based on distance away or type of activity and see how many people are going to the event before sending a message to the event creator. Live messaging allows you the opportunity to get the know the event creator before committing to attending the event. Users can create their own events for others in their area to see. They can manage multiple conversations for their own events or other events all at once.',
             technologies: ['React Native', 'Node', 'MongoDb', 'Socket.io', 'bcrypt', 'JWT', 'S3 Buckets', 'Google Maps API']
         }
     ];
